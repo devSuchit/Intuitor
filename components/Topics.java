@@ -2,6 +2,7 @@ package components;
 
 import java.util.ArrayList;
 
+
 public class Topics {
     public static ArrayList<Topic> topics;
 
