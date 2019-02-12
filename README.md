@@ -10,7 +10,7 @@ Time table must implement the ITimeTable interface
 
 # Aptitude
 
-Aptitude must implement the IAptitude interfacee
+Aptitude must implement the IAptitude interface
 
 # Topic
 
