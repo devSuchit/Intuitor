@@ -1,6 +1,6 @@
 package components;
 
 public interface IAptitude {
-    String[]  strengths();
-    String[] weaknesses();
+    Arraylist<String>  strengths();
+    Arraylist<String> weaknesses();
 }
