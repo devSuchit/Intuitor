@@ -53,5 +53,15 @@ public class EvaluationMetrics {
 
         return weakness_alignment/weaknesses.size();
     }
-    
+
+    static double priorityAlignment(ITimeTable timeTable) {
+
+        double priority_alignment = 0;
+
+        for(Topic topic : Topics.getTopics()) {
+            priority_alignment += topic.priority * timeTable.studyHoursFor(topic.getTopic_name());
+        }
+
+        return priority_alignment;
+    }
 }
