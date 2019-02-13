@@ -7,8 +7,8 @@ public class Aptitude implements IAptitude
   private ArrayList<String> topics, strongTopics, weakTopics;
   private ArrayList<Double> aptValues;
   private String best, worst;
-  private final Double strengthThreshold = 80.0; // on 100
-  private final Double weaknessThreshold = 50.0; // on 100
+  private final double strengthThreshold = 80.0; // on 100
+  private final double weaknessThreshold = 50.0; // on 100
 
   Aptitude(ArrayList<String> topics, ArrayList<Double> aptValues)
   {
